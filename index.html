@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!-- require: <!DOCTYPE html>, <html>, <head>, <body>, <meta charset="??">, poster = thumbnail -->
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="YeGroove">
+    <title>YeCute</title>
+    <link rel="stylesheet" href="./style.css">
+    <video src="Neon.mp4" muted loop autoplay></video>
+    </head>    
+    <body style="background-color: black;">
+        <header>
+            <h1><p><b>YeCute</b></p></h1>
+            <img id="gif" width="250" src="bopbop.gif" alt="html" />
+        </header>
+        <div class="Info"><h1>THÔNG TIN<h1></div>
+        <span class="desc"><big><b>YeCute</big></b> là một bạn bot để chơi nhạc khá đơn giản và dễ sử dụng,nhưng vẫn đang ở <b><big>GIAI ĐOẠN PHÁT TRIỂN</big></b></span>
+        <div class="desc">nên tui sẽ kiểm soát số lượng người mời để giảm thiểu tình trạng nghẽn dẫn đến lỗi.</div>
+        <div class="desc">Vì thế nếu bạn muốn invite Ye về server của mình thì hãy điền đầy đủ các thông tin ở dưới bạn sẽ nhận được link mời nhé</div>
+        <br/>
+        <br/>
+        <br/>
+        <form class="SEND" action="https://formsubmit.co/vunhathuyyy@gmail.com" method="POST">
+            <div class="box">
+                <div>Tên Discord và ID</div>
+                <div class="name1"><input type="text" name="dcname" placeholder="Tên Discord và ID của bạn" required></div>
+                <div>Email</div>
+                <div class="email"><input type="email" name="email" placeholder="Email của bạn" required></div>
+                <input type="hidden" name="_next" value="https://discord.com/api/oauth2/authorize?client_id=890909443997446154&permissions=8&scope=bot" target="_blank">
+            </div>
+            <span></span>
+            <button class="btn1" type="submit" >SEND</button>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <div class="help"><h1>HƯỚNG DẪN<h1></div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><big>LỆNH</big></th>
+                        <th><big>GHI CHÚ</big></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="line0">
+                        <td>?help</td>
+                        <div><td>Lệnh này sẽ hiển thị</div>
+                        <div>1 bảng hướng dẫn</td></div>
+                    </tr>
+                    <tr class="line1">
+                        <td>?play</td>
+                        <td>Để chơi 1 bài nhạc</td>
+                    </tr>
+                    <tr class="line2">
+                        <td>?skip</td>
+                        <td>Để bỏ qua một bài nhạc</td>
+                    </tr>
+                    <tr class="line3">
+                        <td>?connect</td>
+                        <td>Để YeCute gia nhập vào phòng</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+        </footer>
+        <script src=".script.js"></script>    
+    </body>
+</html>
