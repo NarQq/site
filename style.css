@@ -44,6 +44,7 @@ body{
     overflow-y:scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    color:white;
 }
 .Info{
     font-size: 35px;
